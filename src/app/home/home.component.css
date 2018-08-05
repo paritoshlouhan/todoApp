@@ -1,0 +1,48 @@
+.heading {
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 80px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.todo-list-container {
+    width: 51%;
+    margin: auto;
+    font-size: 30px;   
+}
+.list {
+    text-align: left;
+    width: 98%;
+    padding: 10px;
+}
+
+.delete-todo {
+    float: right;
+    cursor: pointer;
+    color: #1e75bb
+}
+
+.done-todo {
+    float: right;
+    margin-right: 8px;
+    cursor: pointer;
+    color: #1e75bb;
+}
+
+.checked {
+    color:green;
+    text-decoration: line-through;
+}
